@@ -18,6 +18,7 @@ export default {
     return axios.post("/api/books", bookData).then((result) => result.data);
   },
 
+  // Shows saved books
   savedBooks: function () {
     return axios.get("/api/books").then((result) => result.data);
   },
