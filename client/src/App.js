@@ -4,6 +4,9 @@ import Books from "./pages/Books";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+import Header from "./components/Header";
+import Wrapper from "./components/Wrapper";
+import "./App.css";
 
 function App() {
   return (
