@@ -1,8 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Books from "./pages/Books";
-import Detail from "./pages/Detail";
-import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
@@ -15,7 +12,7 @@ function App() {
   return (
     <Router>
       <div>
-        <NavBar />
+        <Nav />
         <Header />
         <Wrapper>
           <Route exact path="/" component={Search} />
