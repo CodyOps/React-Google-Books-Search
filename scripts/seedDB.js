@@ -18,6 +18,14 @@ const bookSeed = [
     link:
       "http://books.google.com/books?id=sazytgAACAAJ&dq=title:The+Hunger+Games&hl=&source=gbs_api",
   },
+  {
+    title: "To Kill a Mockingbird",
+    authors: ["Harper Lee"],
+    description:
+      "To Kill a Mockingbird is primarily a novel about growing up under extraordinary circumstances in the 1930s in the Southern United States. The story covers a span of three years, during which the main characters undergo significant changes.",
+    image: "",
+    link: "",
+  },
 ];
 
 db.Book.remove({})
